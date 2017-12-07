@@ -5064,7 +5064,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <instance part="U$2" gate="SDCARD" x="220.98" y="152.4" rot="R180"/>
 <instance part="U$2" gate="GND1" x="220.98" y="127"/>
 <instance part="U$2" gate="GND2" x="210.82" y="127"/>
-<instance part="U$3" gate="G$1" x="236.22" y="91.44"/>
+<instance part="U$3" gate="G$1" x="241.3" y="104.14"/>
 </instances>
 <busses>
 </busses>
@@ -5143,6 +5143,12 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <wire x1="157.48" y1="142.24" x2="162.56" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="142.24" x2="162.56" y2="132.08" width="0.1524" layer="91"/>
 <junction x="162.56" y="132.08"/>
+<wire x1="162.56" y1="142.24" x2="198.12" y2="142.24" width="0.1524" layer="91"/>
+<junction x="162.56" y="142.24"/>
+<wire x1="198.12" y1="142.24" x2="198.12" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="91.44" x2="256.54" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="SCL"/>
+<wire x1="256.54" y1="91.44" x2="256.54" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -5219,6 +5225,11 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <pinref part="U$1" gate="G$1" pin="P0.26"/>
 <wire x1="160.02" y1="127" x2="160.02" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="144.78" x2="157.48" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="144.78" x2="200.66" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="144.78" x2="200.66" y2="96.52" width="0.1524" layer="91"/>
+<junction x="160.02" y="144.78"/>
+<pinref part="U$3" gate="G$1" pin="SDA"/>
+<wire x1="200.66" y1="96.52" x2="226.06" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
@@ -5296,7 +5307,8 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <junction x="66.04" y="167.64"/>
 <wire x1="182.88" y1="205.74" x2="182.88" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="JP5" gate="A" pin="3"/>
-<wire x1="182.88" y1="147.32" x2="182.88" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="147.32" x2="182.88" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="101.6" x2="182.88" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="81.28" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="JP8" gate="A" pin="3"/>
 <wire x1="182.88" y1="81.28" x2="182.88" y2="50.8" width="0.1524" layer="91"/>
@@ -5337,6 +5349,9 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <wire x1="220.98" y1="134.62" x2="215.9" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="134.62" x2="215.9" y2="147.32" width="0.1524" layer="91"/>
 <junction x="215.9" y="147.32"/>
+<pinref part="U$3" gate="G$1" pin="VSS"/>
+<wire x1="226.06" y1="101.6" x2="182.88" y2="101.6" width="0.1524" layer="91"/>
+<junction x="182.88" y="101.6"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -5427,7 +5442,10 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <wire x1="68.58" y1="203.2" x2="180.34" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="JP5" gate="A" pin="2"/>
 <wire x1="180.34" y1="203.2" x2="180.34" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="149.86" x2="180.34" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="149.86" x2="180.34" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="99.06" x2="180.34" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="88.9" x2="180.34" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="86.36" x2="180.34" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="JP5" gate="A" pin="7"/>
 <wire x1="180.34" y1="83.82" x2="180.34" y2="71.12" width="0.1524" layer="91"/>
@@ -5462,6 +5480,19 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <pinref part="U$2" gate="SDCARD" pin="VDD"/>
 <wire x1="220.98" y1="149.86" x2="180.34" y2="149.86" width="0.1524" layer="91"/>
 <junction x="180.34" y="149.86"/>
+<pinref part="U$3" gate="G$1" pin="VDD"/>
+<wire x1="226.06" y1="99.06" x2="180.34" y2="99.06" width="0.1524" layer="91"/>
+<junction x="180.34" y="99.06"/>
+<pinref part="U$3" gate="G$1" pin="ADDR0"/>
+<wire x1="256.54" y1="99.06" x2="259.08" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="99.06" x2="259.08" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="88.9" x2="180.34" y2="88.9" width="0.1524" layer="91"/>
+<junction x="180.34" y="88.9"/>
+<pinref part="U$3" gate="G$1" pin="ADDR1"/>
+<wire x1="256.54" y1="101.6" x2="261.62" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="101.6" x2="261.62" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="86.36" x2="180.34" y2="86.36" width="0.1524" layer="91"/>
+<junction x="180.34" y="86.36"/>
 </segment>
 </net>
 <net name="N$1" class="0">
