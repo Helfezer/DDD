@@ -1,0 +1,32 @@
+Partlist exported from W:/DDD/Eagle/Shield_schematic_MMS.sch at 26/01/2018 12:01
+
+Part       Value               Device              Package        Description                              AVAILABILITY DESCRIPTION                   MF               MP     PACKAGE                PRICE   
+ALIM_N                         PINHD-1X2           1X02           PIN HEADER                                                                                                                                 
+C1         22piF               C2.5/2              C2.5-2         CAPACITOR                                                                                                                                  
+C2         22piF               C2.5/2              C2.5-2         CAPACITOR                                                                                                                                  
+C3         100nF               C2.5/2              C2.5-2         CAPACITOR                                                                                                                                  
+CN1                            DCBARRELPTH         DCJACK_2MM_PTH 2.0mm DC Barrel Jack                                                                                                                       
+G1         CR2032H             CR2032H             CR2032H        LI BATTERY Varta                                                                                                                           
+IC1        317EMP              317EMP              SOT223         Positive VOLTAGE REGULATOR                                                                                                                 
+IMU1                           PINHD-1X8           1X08           PIN HEADER                                                                                                                                 
+IMU2                           PINHD-1X8           1X08           PIN HEADER                                                                                                                                 
+IMU3                           PINHD-1X8           1X08           PIN HEADER                                                                                                                                 
+IMU4                           PINHD-1X8           1X08           PIN HEADER                                                                                                                                 
+IMU5                           PINHD-1X8           1X08           PIN HEADER                                                                                                                                 
+IMU6                           PINHD-1X8           1X08           PIN HEADER                                                                                                                                 
+IMU7                           PINHD-1X8           1X08           PIN HEADER                                                                                                                                 
+IMU8                           PINHD-1X8           1X08           PIN HEADER                                                                                                                                 
+JP1                            PINHD-1X3           1X03           PIN HEADER                                                                                                                                 
+LED1                           LEDCHIPLED_1206     CHIPLED_1206   LED                                                                                                                                        
+MYO1                           PINHD-1X8           1X08           PIN HEADER                                                                                                                                 
+MYO2                           PINHD-1X8           1X08           PIN HEADER                                                                                                                                 
+OSC                            PINHD-1X2           1X02           PIN HEADER                                                                                                                                 
+R1         5K                  R-EU_M1206          M1206          RESISTOR, European symbol                                                                                                                  
+R2         5k                  R-EU_M1206          M1206          RESISTOR, European symbol                                                                                                                  
+R3         2.5K                R-EU_M1206          M1206          RESISTOR, European symbol                                                                                                                  
+RTC        DS1307SO8           DS1307SO8           SO08           I2C real-time clock with battery backup. Unavailable  IC RTC CLK/CALENDAR I2C 8-DIP Maxim Integrated DS1307 DIP-8 Maxim Integrated 2.56 USD
+SDCARD                         PINHD-1X7           1X07           PIN HEADER                                                                                                                                 
+SWITCH_SCL 4051D               4051D               SO16           8-channel ANALOG MULTIPLEXER                                                                                                               
+SWITCH_SDA 4051D               4051D               SO16           8-channel ANALOG MULTIPLEXER                                                                                                               
+U$2        NRF52-SHIELD-NOTEXT NRF52-SHIELD-NOTEXT NRF52-SHIELD   nRF5 devkit shield                                                                                                                         
+U$3        MCP3424             MCP3424             SO14                                                                                                                                                      
