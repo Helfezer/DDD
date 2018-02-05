@@ -1,32 +1,210 @@
-Partlist exported from W:/DDD/Eagle/Shield_schematic_MMS.sch at 26/01/2018 12:01
-
-Part       Value               Device              Package        Description                              AVAILABILITY DESCRIPTION                   MF               MP     PACKAGE                PRICE   
-ALIM_N                         PINHD-1X2           1X02           PIN HEADER                                                                                                                                 
-C1         22piF               C2.5/2              C2.5-2         CAPACITOR                                                                                                                                  
-C2         22piF               C2.5/2              C2.5-2         CAPACITOR                                                                                                                                  
-C3         100nF               C2.5/2              C2.5-2         CAPACITOR                                                                                                                                  
-CN1                            DCBARRELPTH         DCJACK_2MM_PTH 2.0mm DC Barrel Jack                                                                                                                       
-G1         CR2032H             CR2032H             CR2032H        LI BATTERY Varta                                                                                                                           
-IC1        317EMP              317EMP              SOT223         Positive VOLTAGE REGULATOR                                                                                                                 
-IMU1                           PINHD-1X8           1X08           PIN HEADER                                                                                                                                 
-IMU2                           PINHD-1X8           1X08           PIN HEADER                                                                                                                                 
-IMU3                           PINHD-1X8           1X08           PIN HEADER                                                                                                                                 
-IMU4                           PINHD-1X8           1X08           PIN HEADER                                                                                                                                 
-IMU5                           PINHD-1X8           1X08           PIN HEADER                                                                                                                                 
-IMU6                           PINHD-1X8           1X08           PIN HEADER                                                                                                                                 
-IMU7                           PINHD-1X8           1X08           PIN HEADER                                                                                                                                 
-IMU8                           PINHD-1X8           1X08           PIN HEADER                                                                                                                                 
-JP1                            PINHD-1X3           1X03           PIN HEADER                                                                                                                                 
-LED1                           LEDCHIPLED_1206     CHIPLED_1206   LED                                                                                                                                        
-MYO1                           PINHD-1X8           1X08           PIN HEADER                                                                                                                                 
-MYO2                           PINHD-1X8           1X08           PIN HEADER                                                                                                                                 
-OSC                            PINHD-1X2           1X02           PIN HEADER                                                                                                                                 
-R1         5K                  R-EU_M1206          M1206          RESISTOR, European symbol                                                                                                                  
-R2         5k                  R-EU_M1206          M1206          RESISTOR, European symbol                                                                                                                  
-R3         2.5K                R-EU_M1206          M1206          RESISTOR, European symbol                                                                                                                  
-RTC        DS1307SO8           DS1307SO8           SO08           I2C real-time clock with battery backup. Unavailable  IC RTC CLK/CALENDAR I2C 8-DIP Maxim Integrated DS1307 DIP-8 Maxim Integrated 2.56 USD
-SDCARD                         PINHD-1X7           1X07           PIN HEADER                                                                                                                                 
-SWITCH_SCL 4051D               4051D               SO16           8-channel ANALOG MULTIPLEXER                                                                                                               
-SWITCH_SDA 4051D               4051D               SO16           8-channel ANALOG MULTIPLEXER                                                                                                               
-U$2        NRF52-SHIELD-NOTEXT NRF52-SHIELD-NOTEXT NRF52-SHIELD   nRF5 devkit shield                                                                                                                         
-U$3        MCP3424             MCP3424             SO14                                                                                                                                                      
+%
+M48
+M72
+T01C0.02000
+T02C0.03200
+T03C0.03937
+T04C0.04000
+T05C0.04400
+T06C0.11024
+T07C0.12598
+%
+T01
+X128200Y164200
+X156200Y212200
+X166600Y234600
+X161000Y244200
+X170600Y263400
+X185800Y253000
+X185800Y245800
+X183400Y239400
+X195400Y245800
+X204200Y239400
+X213000Y238600
+X231400Y229000
+X245000Y239400
+X249000Y234600
+X245800Y229000
+X259400Y239400
+X265800Y253000
+X265800Y262600
+X280200Y253800
+X255400Y282600
+X241800Y273800
+X241800Y268200
+X241800Y251400
+X237800Y248200
+X216200Y270600
+X213000Y277000
+X196200Y269800
+X193000Y273800
+X237800Y208200
+X261000Y208200
+X267400Y184200
+X253000Y179400
+X249000Y176200
+X245800Y180200
+X242600Y173000
+X248200Y165000
+X245000Y142600
+X241800Y134600
+X237000Y134600
+X253000Y134600
+X225800Y152200
+X225800Y169800
+X218600Y184200
+X218600Y189000
+X200200Y203400
+X189000Y187400
+X185000Y183400
+X192200Y177800
+X195400Y165800
+X280200Y285800
+X279400Y294600
+X233800Y383400
+X198600Y384200
+T02
+X276000Y396000
+X286000Y396000
+X286000Y371000
+X276000Y371000
+X206000Y216000
+X206000Y206000
+T03
+X121000Y205000
+X121000Y195000
+X121000Y185000
+X121000Y215000
+X121000Y225000
+X121000Y235000
+X121000Y245000
+X121000Y255000
+X121000Y265000
+X121000Y275000
+X121000Y291000
+X121000Y301000
+X121000Y311000
+X121000Y321000
+X121000Y331000
+X121000Y341000
+X121000Y351000
+X121000Y361000
+X311000Y361000
+X311000Y351000
+X311000Y341000
+X311000Y331000
+X311000Y321000
+X311000Y311000
+X311000Y291000
+X311000Y281000
+X311000Y271000
+X311000Y261000
+X311000Y251000
+X311000Y241000
+X311000Y231000
+X311000Y221000
+T04
+X66000Y16000
+X66000Y26000
+X66000Y36000
+X66000Y46000
+X66000Y56000
+X66000Y66000
+X66000Y76000
+X66000Y86000
+X66000Y101000
+X66000Y111000
+X66000Y121000
+X66000Y131000
+X66000Y141000
+X66000Y151000
+X66000Y161000
+X66000Y171000
+X86000Y191000
+X86000Y201000
+X86000Y211000
+X86000Y221000
+X86000Y231000
+X86000Y241000
+X86000Y251000
+X116000Y171000
+X116000Y161000
+X116000Y151000
+X116000Y141000
+X116000Y131000
+X116000Y121000
+X116000Y111000
+X116000Y101000
+X116000Y86000
+X116000Y76000
+X116000Y66000
+X116000Y56000
+X116000Y46000
+X116000Y36000
+X116000Y26000
+X116000Y16000
+X166000Y16000
+X166000Y26000
+X166000Y36000
+X166000Y46000
+X166000Y56000
+X166000Y66000
+X166000Y76000
+X166000Y86000
+X166000Y101000
+X166000Y111000
+X166000Y121000
+X166000Y131000
+X166000Y141000
+X166000Y151000
+X166000Y161000
+X166000Y171000
+X181000Y201000
+X181000Y211000
+X181000Y221000
+X216000Y171000
+X216000Y161000
+X216000Y151000
+X216000Y141000
+X216000Y131000
+X216000Y121000
+X216000Y111000
+X216000Y101000
+X216000Y86000
+X216000Y76000
+X216000Y66000
+X216000Y56000
+X216000Y46000
+X216000Y36000
+X216000Y26000
+X216000Y16000
+X266000Y16000
+X266000Y26000
+X266000Y36000
+X266000Y46000
+X266000Y56000
+X266000Y66000
+X266000Y76000
+X266000Y86000
+X266000Y101000
+X266000Y111000
+X266000Y121000
+X266000Y131000
+X266000Y141000
+X266000Y151000
+X266000Y161000
+X266000Y171000
+X251000Y386000
+X251000Y396000
+X136000Y396000
+X126000Y396000
+T05
+X201000Y363500
+X241000Y363500
+X221000Y293500
+T06
+X86000Y377063
+X67102Y363677
+T07
+X86000Y352457
+M30
